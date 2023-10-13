@@ -1,0 +1,154 @@
+/* Font */
+@font-face {
+    font-family: "Gaming";
+    src: url("RetroGaming.ttf");
+}
+
+
+html,body{
+    font-family: "Gaming",sans-serif;
+    color: rgb(9, 21, 54);
+}
+
+body{
+    margin: 10;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+/* for index page */
+.intro{
+    position: absolute;
+    width: 1118px;
+    height: 243px;
+   
+    /* left: 177px;
+    top: 169px; */
+    left: 140px;
+    top: 90px;
+    font-family: "Gaming";
+
+    font-family: 'Retro Gaming';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+    font-family: "Gaming";
+
+    color: #033462;
+    z-index: 1;
+}
+
+.textbox {
+    
+position: absolute;
+width: 574px;
+height: 160px;
+left: 140px;
+top: 1040px;
+
+font-family: 'Retro Gaming';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+font-family: "Gaming";
+
+color: #033462;
+z-index: 1;
+}
+
+.instruction1 {
+    
+  position: absolute;
+  width: 574px;
+  height: 180px;
+  left: 185px;
+  top: 440px;
+  
+  font-family: 'Retro Gaming';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  font-family: "Gaming";
+  
+  color: #033462;
+  z-index: 1;
+  }
+
+
+  .instruction2 {
+    
+    position: absolute;
+    width: 574px;
+    height: 180px;
+    left: 185px;
+    top: 655px;
+    
+    font-family: 'Retro Gaming';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    font-family: "Gaming";
+    
+    color: #033462;
+    z-index: 1;
+    }
+
+  .instruction3 {
+    
+    position: absolute;
+    width: 574px;
+    height: 180px;
+    left: 185px;
+    top: 855px;
+      
+    font-family: 'Retro Gaming';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    font-family: "Gaming";
+      
+    color: #033462;
+    z-index: 1;
+    }
+
+    .instruction4 {
+    
+      position: absolute;
+      width: 574px;
+      height: 180px;
+      left: 185px;
+      top: 1085px;
+        
+      font-family: 'Retro Gaming';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 32px;
+      font-family: "Gaming";
+        
+      color: #033462;
+      z-index: 1;
+      }
+
+
+.highlight{
+    color:#f7f7f7;
+    background-color: #033462;
+}
+
+
+.numbertitle{
+  color:#df3030;
+  font-size: 35px;
+  
+}
